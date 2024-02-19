@@ -1,0 +1,75 @@
+2024-02-16T13:43:48.866-05:00  INFO 4572 --- [main] c.c.s.SpringbootJpaApplication           : Starting SpringbootJpaApplication using Java 21.0.1 with PID 4572 (C:\Users\chada\Downloads\Tutorials\JAVA Tutorials\SpringbootJPA\target\classes started by ChennaKesavaReddy in C:\Users\chada\Downloads\Tutorials\JAVA Tutorials\SpringbootJPA)
+2024-02-16T13:43:48.876-05:00  INFO 4572 --- [main] c.c.s.SpringbootJpaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-02-16T13:43:50.417-05:00  INFO 4572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-16T13:43:50.573-05:00  INFO 4572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134 ms. Found 1 JPA repository interfaces.
+2024-02-16T13:43:52.343-05:00  INFO 4572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-16T13:43:52.378-05:00  INFO 4572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-16T13:43:52.380-05:00  INFO 4572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-16T13:43:53.017-05:00  INFO 4572 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-02-16T13:43:53.030-05:00  INFO 4572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-16T13:43:53.032-05:00  INFO 4572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4027 ms
+2024-02-16T13:43:53.372-05:00  INFO 4572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-16T13:44:03.300-05:00  INFO 4572 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2dd1086
+2024-02-16T13:44:03.304-05:00  INFO 4572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-16T13:44:03.403-05:00  INFO 4572 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-16T13:44:03.619-05:00  INFO 4572 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2024-02-16T13:44:03.626-05:00  INFO 4572 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-16T13:44:04.481-05:00  INFO 4572 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-16T13:44:04.697-05:00  WARN 4572 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-16T13:44:06.900-05:00  INFO 4572 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-16T13:44:06.907-05:00  INFO 4572 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-16T13:44:07.498-05:00  INFO 4572 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-16T13:44:08.447-05:00  WARN 4572 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-16T13:44:08.725-05:00  INFO 4572 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-02-16T13:44:09.206-05:00  INFO 4572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-16T13:44:09.220-05:00  INFO 4572 --- [main] c.c.s.SpringbootJpaApplication           : Started SpringbootJpaApplication in 21.495 seconds (process running for 23.834)
+2024-02-16T13:44:16.788-05:00  INFO 4572 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-16T13:44:16.789-05:00  INFO 4572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-16T13:44:16.792-05:00  INFO 4572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-02-16T13:46:46.293-05:00  INFO 4572 --- [http-nio-8080-exec-9] com.ckr.springbootjpa.LoggingAspect      : getAliens method has been called from aspect
+2024-02-16T13:46:46.315-05:00  INFO 4572 --- [http-nio-8080-exec-9] com.ckr.springbootjpa.LoggingAspect      : getAliens method got executed
+2024-02-16T13:49:54.769-05:00  INFO 4572 --- [http-nio-8080-exec-3] com.ckr.springbootjpa.LoggingAspect      : getAliens method has been called from aspect
+2024-02-16T13:49:54.773-05:00  INFO 4572 --- [http-nio-8080-exec-3] com.ckr.springbootjpa.LoggingAspect      : getAliens method got executed
+2024-02-16T13:50:23.885-05:00  INFO 4572 --- [http-nio-8080-exec-5] com.ckr.springbootjpa.LoggingAspect      : getAliens method has been called from aspect
+2024-02-16T13:50:23.909-05:00  INFO 4572 --- [http-nio-8080-exec-5] com.ckr.springbootjpa.LoggingAspect      : getAliens method got executed
+2024-02-16T14:02:18.350-05:00  INFO 4572 --- [http-nio-8080-exec-5] com.ckr.springbootjpa.LoggingAspect      : getAliens method has been called from aspect
+2024-02-16T14:02:18.358-05:00  INFO 4572 --- [http-nio-8080-exec-5] com.ckr.springbootjpa.LoggingAspect      : getAliens method got executed
+2024-02-16T14:04:10.785-05:00  INFO 4572 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-16T14:04:10.792-05:00  INFO 4572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-16T14:04:10.804-05:00  INFO 4572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-16T14:38:15.415-05:00  INFO 11752 --- [main] c.c.s.SpringbootJpaApplication           : Starting SpringbootJpaApplication using Java 21.0.1 with PID 11752 (C:\Users\chada\Downloads\Tutorials\JAVA Tutorials\SpringbootJPA\target\classes started by ChennaKesavaReddy in C:\Users\chada\Downloads\Tutorials\JAVA Tutorials\SpringbootJPA)
+2024-02-16T14:38:15.419-05:00  INFO 11752 --- [main] c.c.s.SpringbootJpaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-02-16T14:38:16.456-05:00  INFO 11752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-16T14:38:16.533-05:00  INFO 11752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2024-02-16T14:38:17.478-05:00  INFO 11752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-16T14:38:17.490-05:00  INFO 11752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-16T14:38:17.491-05:00  INFO 11752 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-16T14:38:17.819-05:00  INFO 11752 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-02-16T14:38:17.827-05:00  INFO 11752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-16T14:38:17.828-05:00  INFO 11752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2306 ms
+2024-02-16T14:38:18.031-05:00  INFO 11752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-16T14:38:18.290-05:00  INFO 11752 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22ead351
+2024-02-16T14:38:18.292-05:00  INFO 11752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-16T14:38:18.361-05:00  INFO 11752 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-16T14:38:18.500-05:00  INFO 11752 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2024-02-16T14:38:18.507-05:00  INFO 11752 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-16T14:38:19.035-05:00  INFO 11752 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-16T14:38:19.151-05:00  WARN 11752 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-16T14:38:20.471-05:00  INFO 11752 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-16T14:38:20.475-05:00  INFO 11752 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-16T14:38:20.880-05:00  INFO 11752 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-16T14:38:21.607-05:00  WARN 11752 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-16T14:38:21.814-05:00  INFO 11752 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-02-16T14:38:22.103-05:00  INFO 11752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-16T14:38:22.112-05:00  INFO 11752 --- [main] c.c.s.SpringbootJpaApplication           : Started SpringbootJpaApplication in 7.536 seconds (process running for 8.985)
+2024-02-16T14:38:33.885-05:00  INFO 11752 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-16T14:38:33.886-05:00  INFO 11752 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-16T14:38:33.887-05:00  INFO 11752 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-16T14:38:33.924-05:00  WARN 11752 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-02-16T14:39:06.579-05:00  WARN 11752 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-02-16T14:39:12.512-05:00  WARN 11752 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-02-16T14:42:58.365-05:00  WARN 11752 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-02-16T14:46:35.289-05:00  WARN 11752 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-02-16T16:08:48.235-05:00  INFO 11752 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-16T16:08:48.239-05:00  INFO 11752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-16T16:08:48.243-05:00  INFO 11752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
