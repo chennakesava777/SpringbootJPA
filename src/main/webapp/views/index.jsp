@@ -9,6 +9,11 @@
 <body>
 <h1>Welcome to Alien Student's World</h1>
 
+<form action="displayStudents" method="get">
+    <h3>Show the list of students</h3>
+    <input type="submit">
+</form>
+
 <form action="addStudent" method="post">
     <h3>You can add a Alien to the Gang</h3>
     Enter your Student id : <input type="text" name="sid"><br>

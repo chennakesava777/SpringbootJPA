@@ -31,7 +31,7 @@ public class HomeController {
 
 
 
-    @GetMapping("getStudents")
+    @GetMapping("displayStudents")
     public String getStudents(Model m){
       m.addAttribute("result", repo.findAll());
         return "showAliens";
